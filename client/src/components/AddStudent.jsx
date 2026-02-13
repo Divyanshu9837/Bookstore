@@ -19,9 +19,10 @@ import '../css/AddStudent.css'
         e.preventDefault()
     axios.post("http://localhost:3001/student/register",{username, password,roll,grade})
     .then(res =>{
-         if(res.data.register){
-            navigate("/Dashboard")
+         if(res.data.registered){
+            navigate("/dashboard")
          }
+         console.log(res)
     })
     .catch(err => console.log(err))
   }

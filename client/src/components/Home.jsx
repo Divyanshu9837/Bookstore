@@ -1,7 +1,9 @@
-import React from "react";
+import React  from "react";
 import '../css/Home.css'
+// import axios from "axios";
 
 const Home = ()=>{
+    
     return(
         <div className="hero">
             <div className="hero-content">
@@ -11,7 +13,7 @@ const Home = ()=>{
                     you will definitely find what you are looking for
                 </p>
             </div>
-            <div className="hero-image"></div>
+            <div className="hero-image"><img src="/public/book.jpg" alt="Book Cover"/></div>
         </div>
     )
 }
