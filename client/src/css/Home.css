@@ -1,0 +1,30 @@
+.hero{
+    display: flex;
+    color: #ffc107;
+    height: 92vh;
+    background-color: #301934;
+}
+
+.hero-content{
+    flex1: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+.hero-text{
+    font-size : 3rem;
+    margin-bottom: 10px;
+    word-spacing: 1%;
+}
+.hero-description{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    max-width: 400px;
+}
+.hero-image{
+    font: 1;
+    background: url('/client/public/images/library-shelf.png')center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
